@@ -1,5 +1,4 @@
 
-  
    
     .image{
         
@@ -9,9 +8,9 @@
         margin: 0 auto;
     }
     .image img{
-        width: 500px;
-        height: 600px;
+       
         object-fit: cover;
+        margin-top: 40px;
     }
     .imm{
         width: 100%;
@@ -36,7 +35,7 @@
     color: white;
  
 }
-   .heading h2{
+  .heading h2{
     font-size: 1.6rem;
     color:black;
     font-weight: 700;
@@ -65,7 +64,6 @@ footer{
 .footer-cool {
    display: flex;
    justify-content: space-around;
-   flex-direction: column;
 }
 .footer-link span{
     font-weight: bold;
@@ -88,7 +86,6 @@ footer{
     width: 100%;
     margin: 0 auto;
     text-align: center;
-
 }
 .order1{
     
@@ -100,7 +97,7 @@ footer{
     border: none;
     outline: none;
     cursor: pointer;
-    
+
     
     
 }
@@ -189,16 +186,14 @@ footer{
         margin: 0 auto;
         text-align: center;
     }
-   footer{
- background-color: #999;
-    padding: 4rem ;
-   
-}
-.footer-content{
-    width: 100%;
-    
-    
-}
+    .footer{
+        width:95%;
+    }
+    .footer-content{
+        width: 95%;
+        text-align: center;
+        padding: 2rem;
+    }
     .footer-cool{
         display: flex;
         flex-direction: column;
